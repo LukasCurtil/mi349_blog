@@ -4,6 +4,18 @@ body {
     background-color: rgb(227, 227, 227);
 }
 
+#subhead {
+  margin-bottom: 70px;;
+}
+
+#post1 {
+  margin-bottom: 70px;
+}
+
+#post2 {
+  margin-bottom: 100px;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -36,4 +48,9 @@ nav a {
     max-width: 60%;
     margin: 0 auto;
     padding: 20px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
