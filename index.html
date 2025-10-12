@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-      </ul>
-    </nav>
-    <div>
+    <div class="navbar"></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
       <h1><em>Welcome to my blog.</em></h1>
         <p>This is the homepage of my personal blog where I share my thoughts and experiences.</p>
       <br>
@@ -76,17 +79,18 @@
         <p>I am as much of a fan of throwing the football around as I am of watching it. I got into football once I got into high school because honestly, I never really watched it before then. But I remember enjoying watching the games there and that led me to watching NFL and the Lions obviously. Recently, I have been really excited to watch and I am just glad the season is back and i'm glad the Lions are doing well even though they completley choked to the Packers in week one but its alright.</p>
         <img src="football_img.jpg" alt="Spartan Field with football players on it" width="600">
       </article>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <form name="email" netlify>  
+                <strong>Sign up for our newsletter!</strong><br><input type="email" name="email" placeholder="Email">  
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div>
-        <form name="email" netlify>  
-            <strong>Sign up for our newsletter!</strong><br><input type="email" name="email" placeholder="Email">  
-            <input type="submit" value="Submit">
-        </form>
-      </div>
+    
   </body>
 </html>
