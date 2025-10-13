@@ -108,6 +108,10 @@ nav a {
   margin-top: 10px;
 }
 
+.newsletter {
+  
+}
+
 .day-in-life {
   padding: 20px
 }
@@ -137,4 +141,13 @@ table td {
   border: 1px solid black;
   padding: 10px;
   text-align: center;
+}
+
+#news-btn {
+  background-color: rgb(160, 100, 182);
+  color: white;
+}
+
+input[target="btn"] {
+  cursor: pointer;
 }
