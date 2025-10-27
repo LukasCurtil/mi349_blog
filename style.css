@@ -108,10 +108,6 @@ nav a {
   margin-top: 10px;
 }
 
-.newsletter {
-  
-}
-
 .day-in-life {
   padding: 20px
 }
@@ -150,4 +146,57 @@ table td {
 
 input[target="btn"] {
   cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .content {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .contact {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav {
+    background-color: blueviolet;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  .content {
+    max-width: 80%;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
